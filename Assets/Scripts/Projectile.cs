@@ -10,11 +10,16 @@ public class Projectile : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    private void Start()
+    void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        player = GameObject.FindGameObjectWithTag("Player");
-        Physics2D.IgnoreCollision(player.GetComponent<BoxCollider2D>(), gameObject.GetComponent<BoxCollider2D>());
+        
+        
+        if(gameObject.tag == "PlayerProjectile")
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+            Physics2D.IgnoreCollision(player.GetComponent<BoxCollider2D>(), gameObject.GetComponent<BoxCollider2D>());
+        }
+        
         StartCoroutine(destroyProjectile());
     }
 
@@ -26,9 +31,10 @@ public class Projectile : MonoBehaviour
     // Detects when the projectile makes a collision. If it hits an enemy and originates from player it damages enemy, if it hits player and originates from enemy then it damages player
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("collision");
         GameObject other = collision.gameObject;
         GameObject projectile = collision.otherCollider.gameObject;
+
+        rb = GetComponent<Rigidbody2D>();
 
         // First thing we do when a collision occurs is set velocity to 0 to stop any weird sliding/movements
         if (other.tag != "Player")

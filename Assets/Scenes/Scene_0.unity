@@ -2493,7 +2493,7 @@ GameObject:
   - component: {fileID: 571243255}
   - component: {fileID: 571243256}
   - component: {fileID: 571243257}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Temp_Weapon0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2553,7 +2553,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -935506653
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -7999401007662169846, guid: 853dd3f8be5e73c409f8dee850ec0100, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5014,7 +5014,7 @@ GameObject:
   - component: {fileID: 1153409477}
   - component: {fileID: 1153409481}
   - component: {fileID: 1153409480}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Enemy_0
   m_TagString: Enemy
   m_Icon: {fileID: 0}

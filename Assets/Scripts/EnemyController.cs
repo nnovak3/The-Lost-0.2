@@ -25,7 +25,7 @@ public class EnemyController : MonoBehaviour
         while(true)
         {
             projectile = Instantiate<GameObject>(projectilePrefab);
-            projectile.transform.position = new Vector3(transform.position.x, transform.position.y - 0.15f, 0);
+            projectile.transform.position = new Vector3(transform.position.x, transform.position.y - 0.15f, -2);
             Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
             rb.velocity = new Vector3(0, -1, 0) * projectileSpeed;
 

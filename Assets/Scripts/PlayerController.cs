@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     {
         boxCollider = GetComponent<BoxCollider2D>();
         playerHealth = 100f;
-        //healthSlider = healthBar.GetComponentInChildren<Slider>();
+        healthSlider = healthBar.GetComponentInChildren<Slider>();
     }
 
     private void Update()
@@ -34,10 +34,10 @@ public class PlayerController : MonoBehaviour
         // Swap sprite direction; if player is moving right, default sprite orientation. If player moving left, flip the sprite by setting scale.x to -1
         if(move.x > 0)
         {
-            transform.localScale = new Vector3(2, 2, 2);
+            transform.localScale = new Vector3(4, 4, 4);
         }else if(move.x < 0)
         {
-            transform.localScale = new Vector3(-2, 2, 2);
+            transform.localScale = new Vector3(-4, 4, 4);
         }
 
         // We check to see if the player will collide with anything before moving them
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
             transform.Translate(move.x * Time.deltaTime * speed, 0, 0);
         }
 
-        //healthSlider.value = playerHealth;
+        healthSlider.value = playerHealth;
 
     }
 

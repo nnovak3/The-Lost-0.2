@@ -8,6 +8,9 @@ TagManager:
   - Enemy
   - Rooms
   - Tutorial
+  - PlayerProjectile
+  - EnemyProjectile
+  - Boss
   layers:
   - Default
   - TransparentFX

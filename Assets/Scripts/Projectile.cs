@@ -26,6 +26,7 @@ public class Projectile : MonoBehaviour
     // Detects when the projectile makes a collision. If it hits an enemy and originates from player it damages enemy, if it hits player and originates from enemy then it damages player
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("collision");
         GameObject other = collision.gameObject;
         GameObject projectile = collision.otherCollider.gameObject;
 

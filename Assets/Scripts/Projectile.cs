@@ -37,10 +37,8 @@ public class Projectile : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         // First thing we do when a collision occurs is set velocity to 0 to stop any weird sliding/movements
-        if (other.tag != "Player")
-        {
-            rb.velocity = new Vector3(0, 0, 0);
-        }
+        rb.velocity = new Vector2(0, 0);
+        
         
 
        

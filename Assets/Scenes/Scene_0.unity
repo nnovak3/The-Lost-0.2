@@ -468,7 +468,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &35325719
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1012,7 +1011,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &155799233
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1650,7 +1648,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &223207312
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2173,7 +2170,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &280244057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2551,7 +2547,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &290516810
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4107,7 +4102,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &430014889
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4688,7 +4682,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &477406034
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6085,7 +6078,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &615088283
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6307,7 +6299,6 @@ MonoBehaviour:
   projectileSpeed: 2
   maxHealth: 100
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &640146403
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9692,7 +9683,6 @@ MonoBehaviour:
   projectileSpeed: 3
   maxHealth: 200
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &1116682393
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10339,7 +10329,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &1242780934
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10722,7 +10711,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &1269298665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10870,7 +10858,6 @@ MonoBehaviour:
   projectileSpeed: 2
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &1280520843
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11726,7 +11713,6 @@ MonoBehaviour:
   projectileSpeed: 2
   maxHealth: 100
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &1431734929
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11874,7 +11860,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &1440237621
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12615,7 +12600,6 @@ MonoBehaviour:
   projectileSpeed: 2
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &1523565264
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13888,7 +13872,6 @@ MonoBehaviour:
   projectileSpeed: 1
   maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 1803775193}
 --- !u!212 &1703921889
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14763,7 +14746,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -14785,7 +14768,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0014764369, y: 0.0014763661}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -14796,7 +14779,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 0.15704694, y: 0.17476383}
   m_EdgeRadius: 0
 --- !u!1001 &1804004075
 PrefabInstance:

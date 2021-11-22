@@ -21,9 +21,9 @@ TagManager:
   - Player
   - Floor
   - Collidable
-  - Projectiles
-  - 
-  - 
+  - EnemyProjectile
+  - PlayerProjectile
+  - Enemy
   - 
   - 
   - 

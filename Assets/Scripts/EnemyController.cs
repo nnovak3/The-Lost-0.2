@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public float projectileSpeed = 1.0f;
+    public float maxHealth = 30f;
     public GameObject projectilePrefab;
     public GameObject player;
 
@@ -15,7 +16,7 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = 30f;
+        health = maxHealth;
         StartCoroutine(fire());
     }
 

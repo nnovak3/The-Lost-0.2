@@ -57,6 +57,13 @@ public class Projectile : MonoBehaviour
             Destroy(projectile);
 
             other.GetComponent<PlayerController>().TakeDamage(EnemyProjDamage);
+        }else if(other.tag == "Wall")
+        {
+            Destroy(projectile);
+        }
+        else
+        {
+            Debug.Log(other.name);
         }
     }
 

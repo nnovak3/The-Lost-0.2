@@ -12,6 +12,7 @@ TagManager:
   - EnemyProjectile
   - Boss
   - Wall
+  - MiniBoss
   layers:
   - Default
   - TransparentFX

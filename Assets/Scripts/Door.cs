@@ -7,7 +7,7 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     bool consoleClick = false;
-    int bosses = 2; //set to check how many Boss tagged enemies remain LATER
+    bool bosses = true; //set to check how many Boss tagged enemies remain LATER
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +20,11 @@ public class Door : MonoBehaviour
     {
         //check & update boss #
 
+        if(GameObject.FindWithTag("MiniBoss") == null)
+        {
+            bosses = false;
+        }
+
         //if tag == tutorial
         if (gameObject.CompareTag("Tutorial") == true){
             if (consoleClick == true)//if console has been interacted with
@@ -31,7 +36,7 @@ public class Door : MonoBehaviour
         //if tag == bosses
         if (gameObject.CompareTag("Boss") == true)
         {
-            if (bosses == 0)
+            if (bosses == false)
             {
                 Destroy(gameObject);
             }

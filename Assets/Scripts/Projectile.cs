@@ -49,6 +49,13 @@ public class Projectile : MonoBehaviour
 
             other.GetComponent<EnemyController>().TakeDamage(PlayerProjDamage);
         }
+        else if (other.tag == "MiniBoss" && projectile.tag == "PlayerProjectile")
+        {
+            Debug.Log("Miniboss Enemy detected.");
+            Destroy(projectile);
+
+            other.GetComponent<EnemyController>().TakeDamage(PlayerProjDamage);
+        }
         else if(other.tag == "Player" && projectile.tag == "EnemyProjectile")
         {
             Debug.Log("Player detected.");

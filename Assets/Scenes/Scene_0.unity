@@ -248,6 +248,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4074629094927793875, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
+      propertyPath: m_TagString
+      value: MiniBossDoor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
 --- !u!4 &8504374 stripped
@@ -2082,6 +2086,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4074629094927793875, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
+      propertyPath: m_TagString
+      value: MiniBossDoor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
 --- !u!4 &264855111 stripped
@@ -3548,7 +3556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4074629094927793875, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_TagString
-      value: Boss
+      value: MiniBossDoor2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
@@ -4230,6 +4238,10 @@ PrefabInstance:
     - target: {fileID: 4074629094927793875, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074629094927793875, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
+      propertyPath: m_TagString
+      value: MiniBossDoor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
@@ -8726,6 +8738,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4074629094927793875, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
+      propertyPath: m_TagString
+      value: MiniBossDoor2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
 --- !u!4 &947658890 stripped
@@ -9884,6 +9900,10 @@ PrefabInstance:
     - target: {fileID: 4074629094927793875, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074629094927793875, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
+      propertyPath: m_TagString
+      value: MiniBossDoor2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
@@ -11655,7 +11675,7 @@ GameObject:
   - component: {fileID: 1431734926}
   m_Layer: 11
   m_Name: Mini Boss 2
-  m_TagString: MiniBoss
+  m_TagString: MiniBoss2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14435,6 +14455,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4074629094927793875, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
+      propertyPath: m_TagString
+      value: Boss
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
 --- !u!4 &1770325648 stripped
@@ -16866,6 +16890,10 @@ PrefabInstance:
     - target: {fileID: 4074629094927793875, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074629094927793875, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
+      propertyPath: m_TagString
+      value: MiniBossDoor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}

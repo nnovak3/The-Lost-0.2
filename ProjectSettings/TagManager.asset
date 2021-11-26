@@ -13,6 +13,9 @@ TagManager:
   - Boss
   - Wall
   - MiniBoss
+  - MiniBoss2
+  - MiniBossDoor
+  - MiniBossDoor2
   layers:
   - Default
   - TransparentFX

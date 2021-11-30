@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject healthBar;
     public float speed;
+
     private Slider healthSlider;
     private float playerHealth;
     
@@ -57,8 +58,20 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    public void HealthPowerUp(float health)
+    {
+        playerHealth += health;
+    }
+
     public void TakeDamage(float damage)
     {
         playerHealth -= damage;
+    }
+
+    // Coroutine for removing power up
+    IEnumerator destroyPowerUp(float seconds)
+    {
+        yield return new WaitForSecondsRealtime(seconds);
+        //Destroy(gameObject);
     }
 }

@@ -16,6 +16,7 @@ TagManager:
   - MiniBoss2
   - MiniBossDoor
   - MiniBossDoor2
+  - HealthPowerUp
   layers:
   - Default
   - TransparentFX
@@ -29,7 +30,7 @@ TagManager:
   - EnemyProjectile
   - PlayerProjectile
   - Enemy
-  - 
+  - PowerUps
   - 
   - 
   - 

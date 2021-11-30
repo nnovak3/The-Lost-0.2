@@ -77,6 +77,9 @@ TextureImporter:
   - first:
       213: -42472407576098278
     second: Temp_Weapon1
+  - first:
+      213: 6131184017689425680
+    second: Temp_HealthPowerUp
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -669,7 +672,7 @@ TextureImporter:
         width: 8
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -690,7 +693,7 @@ TextureImporter:
         width: 6
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -698,6 +701,27 @@ TextureImporter:
       bones: []
       spriteID: a1acba1029b196ff0800000000000000
       internalID: -42472407576098278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_HealthPowerUp
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 65
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0173ee23167561550800000000000000
+      internalID: 6131184017689425680
       vertices: []
       indices: 
       edges: []

@@ -20,8 +20,10 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        boxCollider = GetComponent<BoxCollider2D>();
+        // Default values for player health
         playerHealth = 100f;
+
+        boxCollider = GetComponent<BoxCollider2D>();
         healthSlider = healthBar.GetComponentInChildren<Slider>();
     }
 

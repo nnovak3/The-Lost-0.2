@@ -17,6 +17,7 @@ TagManager:
   - MiniBossDoor
   - MiniBossDoor2
   - HealthPowerUp
+  - interactable
   layers:
   - Default
   - TransparentFX

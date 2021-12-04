@@ -28,27 +28,27 @@ public class UITxt : MonoBehaviour
         {
             if(promptCounter == 1)
             {
-                uiText.text = ("Right, the infermary. Where is everybody?");
+                uiText.text = ("Right, the infermary. Where is everybody? [press 'e' to continue]");
                 promptCounter++;
                 promptNo++;      
             }
             else if (promptCounter == 2)
             {
-                uiText.text = ("[use the 'wasd' keys to move. Use 'e' to interact with objects]");
+                uiText.text = ("[use the 'wasd' keys to move. Use 'f' to interact with objects][press 'e' to continue]");
                 promptCounter++;
                 promptNo ++;
 
             }
             else if (promptCounter == 3)
             {
-                uiText.text = ("[use the left mouse click to fire your sword shaped pistol]");
+                uiText.text = ("[use the spacebar to melee with your knife][press 'e' to continue]");
                 promptCounter++;
                 promptNo ++;
 
             }
             else if (promptCounter == 4)
             {
-                uiText.text = ("Defeat the enemy in the next room to unlock the door");
+                uiText.text = ("Melee the enemy in the next room to unlock the door [press 'e' to end instructions]");
                 promptCounter++;
                 promptNo = 0;
 

@@ -8,6 +8,10 @@ public class UITxt : MonoBehaviour
     public TMP_Text uiText;
     int promptCounter = 0;
     int promptNo = 0;
+    bool trigEnter = false;
+    bool trigExit = true;
+    Collider2D checker;
+    string usedItem = "";
 
     
 
@@ -40,6 +44,11 @@ public class UITxt : MonoBehaviour
                 promptNo = 0;
 
             }
+            else if(usedItem == "PPAADD")
+            {
+                uiText.text = ("Hey newbie. I know you never got the grand tour of the palce before you got laid up");
+                Debug.Log("IT WORKED");
+            }
 
         }
         else if (Input.GetKeyDown("e") && uiText.text != "" && promptNo == 0)//Clears text
@@ -47,11 +56,43 @@ public class UITxt : MonoBehaviour
             uiText.text = "";
         }
     }
-    void onCollisionEnter(Collision obj)
+    
+
+    void OnTriggerEnter2D(Collider2D obj)
     {
-        if(obj.gameObject.name == "PPAADD")
+        if (obj.gameObject.tag == ("interactable"))
         {
-            uiText.text = ("Hey rookie. I know you never got the grand tour of the palce before you got laid up");
+            //uiText.text = ("Hey newbie. I know you never got the grand tour of the palce before you got laid up");
+            Debug.Log("Entered");
+            trigEnter = true;
+            trigExit = false;
+            usedItem = obj.gameObject.name;
         }
     }
+
+    void OnTriggerExit2D(Collider2D obj)
+    {
+            if (obj.gameObject.tag == ("interactable"))
+            {
+                Debug.Log("Exited");
+                trigEnter = false;
+                trigExit = true;
+            usedItem = "";
+            }
+    }
+        
+          
 }
+
+
+/*void OnTriggerEnter2D(Collider2D obj)
+    {
+        if (obj.gameObject.tag == ("interactable"))
+        {
+            Debug.Log("Entered");
+            trigEnter = true;
+            trigExit = false;
+            uiText.text = ("Hey rookie. I know you never got the grand tour of the palce before you got laid up");
+           
+        }
+    }*/

@@ -17,6 +17,8 @@ TagManager:
   - MiniBossDoor
   - MiniBossDoor2
   - HealthPowerUp
+  - tutorialEnemy
+  - tutorialDoor
   layers:
   - Default
   - TransparentFX

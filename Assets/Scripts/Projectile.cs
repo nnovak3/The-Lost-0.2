@@ -63,6 +63,13 @@ public class Projectile : MonoBehaviour
 
             other.GetComponent<EnemyController>().TakeDamage(PlayerProjDamage);
         }
+        else if (other.tag == "tutorialEnemy" && projectile.tag == "PlayerProjectile")
+        {
+            Debug.Log("tutorialEnemy Enemy detected.");
+            Destroy(projectile);
+
+            other.GetComponent<EnemyController>().TakeDamage(PlayerProjDamage);
+        }
         else if(other.tag == "Player" && projectile.tag == "EnemyProjectile")
         {
             Debug.Log("Player detected.");

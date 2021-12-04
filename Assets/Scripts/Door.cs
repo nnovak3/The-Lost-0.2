@@ -9,6 +9,7 @@ public class Door : MonoBehaviour
     bool consoleClick = false;
     bool miniBoss = true; 
     bool miniBoss2 = true;
+    bool tutorialEnemy = true;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,10 @@ public class Door : MonoBehaviour
         {
             miniBoss2 = false;
         }
+        if (GameObject.FindWithTag("tutorialEnemy") == null)
+        {
+            tutorialEnemy = false;
+        }
 
         //if tag == tutorial
         if (gameObject.CompareTag("Tutorial") == true){
@@ -39,6 +44,13 @@ public class Door : MonoBehaviour
         }
 
         //opens miniboss doors
+        if (gameObject.CompareTag("tutorialDoor") == true)
+        {
+            if (tutorialEnemy == false)
+            {
+                Destroy(gameObject);
+            }
+        }
         if (gameObject.CompareTag("MiniBossDoor") == true)
         {
             if (miniBoss == false)

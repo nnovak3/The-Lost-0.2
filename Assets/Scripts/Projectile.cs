@@ -74,6 +74,12 @@ public class Projectile : MonoBehaviour
 
             other.GetComponent<PlayerController>().TakeDamage(EnemyProjDamage);
         }
+        else if (other.tag == "Boss" && projectile.tag == "PlayerProjectile")
+        {
+            Destroy(projectile);
+
+            other.GetComponent<EnemyController>().TakeDamage(PlayerProjDamage);
+        }
         else if (other.tag == "Wall")
         {
             Destroy(projectile);

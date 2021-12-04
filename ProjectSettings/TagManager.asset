@@ -18,6 +18,9 @@ TagManager:
   - MiniBossDoor2
   - HealthPowerUp
   - interactable
+  - tutorialDoor
+  - tutorialEnemy
+  - GunHitPoint
   layers:
   - Default
   - TransparentFX

@@ -37,7 +37,7 @@ public class WeaponController : MonoBehaviour
         float moveX = worldpos.x - transform.position.x;
         float moveY = worldpos.y - transform.position.y;
 
-        //rb.velocity = new Vector3(moveX, moveY, 0) * projectileSpeed;
+        rb.velocity = new Vector3(moveX, moveY, 0).normalized * projectileSpeed;
         projectile.GetComponent<Projectile>().target = new Vector3(worldpos.x, worldpos.y, -2);
         projectile.GetComponent<Projectile>().projectileSpeed = projectileSpeed;
     }

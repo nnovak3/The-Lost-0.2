@@ -55,10 +55,9 @@ public class EnemyController : MonoBehaviour
         projectile.transform.position = new Vector3(transform.position.x, transform.position.y - 0.15f, -2);
 
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-        //rb.velocity = new Vector3(moveX, moveY, 0) * projectileSpeed;
+        rb.velocity = new Vector3(moveX, moveY, 0).normalized * projectileSpeed;
         projectile.GetComponent<Projectile>().target = player.transform.position;
         projectile.GetComponent<Projectile>().projectileSpeed = projectileSpeed;
-        projectile.transform.position = Vector3.MoveTowards(transform.position, player.transform.position, projectileSpeed * Time.deltaTime);
     }
 
     public void TakeDamage(float damage)

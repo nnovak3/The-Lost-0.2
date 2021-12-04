@@ -18,11 +18,11 @@ public class Projectile : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, target, projectileSpeed * Time.deltaTime);
-        if(transform.position.x == target.x && transform.position.y == target.y)
-        {
-            Destroy(gameObject);
-        }
+        //transform.position = Vector3.MoveTowards(transform.position, target, projectileSpeed * Time.deltaTime);
+        //if(transform.position.x == target.x && transform.position.y == target.y)
+       // {
+       //     Destroy(gameObject);
+       // }
     }
 
     // Detects when the projectile makes a collision. If it hits an enemy and originates from player it damages enemy, if it hits player and originates from enemy then it damages player

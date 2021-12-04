@@ -67,6 +67,7 @@ public class UITxt : MonoBehaviour
             trigEnter = true;
             trigExit = false;
             usedItem = obj.gameObject.name;
+            Debug.Log(usedItem);
         }
     }
 

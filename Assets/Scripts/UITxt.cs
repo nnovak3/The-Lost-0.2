@@ -34,7 +34,21 @@ public class UITxt : MonoBehaviour
             }
             else if (promptCounter == 2)
             {
-                uiText.text = ("[use 'wasd to move. Use 'e' to interact with objects]");
+                uiText.text = ("[use the 'wasd' keys to move. Use 'e' to interact with objects]");
+                promptCounter++;
+                promptNo ++;
+
+            }
+            else if (promptCounter == 3)
+            {
+                uiText.text = ("[use the left mouse click to fire your sword shaped pistol]");
+                promptCounter++;
+                promptNo ++;
+
+            }
+            else if (promptCounter == 4)
+            {
+                uiText.text = ("Defeat the enemy in the next room to unlock the door");
                 promptCounter++;
                 promptNo = 0;
 

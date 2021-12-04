@@ -34,20 +34,55 @@ public class UITxt : MonoBehaviour
             }
             else if (promptCounter == 2)
             {
-                uiText.text = ("[use 'wasd to move. Use PLACEHOLDER to interact with objects]");
+                uiText.text = ("[use 'wasd to move. Use 'e' to interact with objects]");
                 promptCounter++;
                 promptNo = 0;
 
             }
             else if(usedItem == "PPAADD")
             {
-                uiText.text = ("Hey newbie, I know you never got the grand tour of the palce before you got laid up");
+                if (promptNo == 0)
+                {
+                    uiText.text = ("[You pick up a PPAADD - Personal Pocket Access Allowing Display Device]");
+                    promptNo++;
+                }
+                else if (promptNo == 1)
+                {
+                    uiText.text = ("[You get the feeling that whoever came up with that name was trying way too hard to make a joke]");
+                    promptNo++;
+                }
+                else if (promptNo == 2)
+                {
+                    uiText.text = ("PPAADD: Hey newbie, I know you never got the grand tour of the palce before you got laid up.");
+                    promptNo++;
+                }
+                else if (promptNo == 3)
+                {
+                    uiText.text = ("PPAADD: Come see me up in the control room, I'll fill you in.");
+                    promptNo++;
+                }
+                else if (promptNo == 4)
+                {
+                    uiText.text = ("PPAADD: If Armstrong is up to her \"hazing rituals\" again and locked the door, the access console near the exit will open it.");
+                    promptNo++;
+                }
+                else if (promptNo == 5)
+                {
+                    uiText.text = ("PPAADD: -- Security Chief Gagarin");
+                    promptNo++;
+                }
+                else if (promptNo == 6)
+                {
+                    uiText.text = ("");
+                    promptNo = 0;
+                }
             }
 
         }
         else if (Input.GetKeyDown("e") && uiText.text != "" && promptNo == 0)//Clears text
         {
             uiText.text = "";
+            promptNo = 0;
         }
     }
     

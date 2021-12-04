@@ -13,8 +13,6 @@ public class UITxt : MonoBehaviour
     Collider2D checker;
     string usedItem = "";
 
-    
-
     // Start is called before the first frame update
     void Start()
     {
@@ -28,14 +26,11 @@ public class UITxt : MonoBehaviour
     {
         if (Input.GetKeyDown("e") && uiText.text == "" || Input.GetKeyDown("e") && promptNo != 0 )
         {
-            //uiText.text = "TESTING";
-           
             if(promptCounter == 1)
             {
                 uiText.text = ("Right, the infermary. Where is everybody?");
                 promptCounter++;
-                promptNo++;
-               
+                promptNo++;      
             }
             else if (promptCounter == 2)
             {
@@ -46,8 +41,7 @@ public class UITxt : MonoBehaviour
             }
             else if(usedItem == "PPAADD")
             {
-                uiText.text = ("Hey newbie. I know you never got the grand tour of the palce before you got laid up");
-                Debug.Log("IT WORKED");
+                uiText.text = ("Hey newbie, I know you never got the grand tour of the palce before you got laid up");
             }
 
         }
@@ -57,16 +51,15 @@ public class UITxt : MonoBehaviour
         }
     }
     
-
     void OnTriggerEnter2D(Collider2D obj)
     {
         if (obj.gameObject.tag == ("interactable"))
         {
-            //uiText.text = ("Hey newbie. I know you never got the grand tour of the palce before you got laid up");
-            Debug.Log("Entered");
+            //Debug.Log("Entered");
             trigEnter = true;
             trigExit = false;
             usedItem = obj.gameObject.name;
+
         }
     }
 
@@ -74,10 +67,10 @@ public class UITxt : MonoBehaviour
     {
             if (obj.gameObject.tag == ("interactable"))
             {
-                Debug.Log("Exited");
+                //Debug.Log("Exited");
                 trigEnter = false;
                 trigExit = true;
-            usedItem = "";
+                usedItem = "";
             }
     }
         

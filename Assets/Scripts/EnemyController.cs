@@ -32,7 +32,7 @@ public class EnemyController : MonoBehaviour
         distToPlayer = Vector2.Distance(transform.position, player.transform.position);
         if(count >= cooldown)
         {
-            Debug.Log("time!");
+            //Debug.Log("time!");
             if(distToPlayer <= range)
             {
                 FireWeapon();

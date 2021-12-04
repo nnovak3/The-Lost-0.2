@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public GameObject player;
+    public Vector3 target;
+    public float projectileSpeed = 1.0f;
     public float EnemyProjDamage = 10f;
     public float PlayerProjDamage = 10f;
 
@@ -12,20 +13,16 @@ public class Projectile : MonoBehaviour
 
     void Start()
     {
-        
-        
-        if(gameObject.tag == "PlayerProjectile")
-        {
-            player = GameObject.FindGameObjectWithTag("Player");
-            Physics2D.IgnoreCollision(player.GetComponent<BoxCollider2D>(), gameObject.GetComponent<BoxCollider2D>());
-        }
-        
         StartCoroutine(destroyProjectile());
     }
 
     void Update()
     {
-        
+        transform.position = Vector3.MoveTowards(transform.position, target, projectileSpeed * Time.deltaTime);
+        if(transform.position.x == target.x && transform.position.y == target.y)
+        {
+            Destroy(gameObject);
+        }
     }
 
     // Detects when the projectile makes a collision. If it hits an enemy and originates from player it damages enemy, if it hits player and originates from enemy then it damages player
@@ -38,10 +35,10 @@ public class Projectile : MonoBehaviour
 
         // First thing we do when a collision occurs is set velocity to 0 to stop any weird sliding/movements
         rb.velocity = new Vector2(0, 0);
-        
-        
 
-       
+
+
+
         if (other.tag == "Enemy" && projectile.tag == "PlayerProjectile")
         {
             Debug.Log("Enemy detected.");
@@ -70,13 +67,14 @@ public class Projectile : MonoBehaviour
 
             other.GetComponent<EnemyController>().TakeDamage(PlayerProjDamage);
         }
-        else if(other.tag == "Player" && projectile.tag == "EnemyProjectile")
+        else if (other.tag == "Player" && projectile.tag == "EnemyProjectile")
         {
             Debug.Log("Player detected.");
             Destroy(projectile);
 
             other.GetComponent<PlayerController>().TakeDamage(EnemyProjDamage);
-        }else if(other.tag == "Wall")
+        }
+        else if (other.tag == "Wall")
         {
             Destroy(projectile);
         }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7042146791242760719}
   - component: {fileID: 7042146791242760722}
   - component: {fileID: 7042146791242760717}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Temp_DamagePowerUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}

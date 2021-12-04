@@ -97,9 +97,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 1
+  range: 10
+  cooldown: 1
+  enemyDamage: 10
+  projectileSpeed: 7
+  maxHealth: 30
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
-  player: {fileID: 0}
 --- !u!61 &7603017986940337250
 BoxCollider2D:
   m_ObjectHideFlags: 0

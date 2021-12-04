@@ -19,6 +19,7 @@ TagManager:
   - HealthPowerUp
   - tutorialEnemy
   - tutorialDoor
+  - DamagePowerUp
   layers:
   - Default
   - TransparentFX

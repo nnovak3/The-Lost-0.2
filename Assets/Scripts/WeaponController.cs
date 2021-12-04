@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour
 {
     public float playerDamage = 10.0f;
-    public float projectileSpeed = 2.0f;
+    public float projectileSpeed = 10.0f;
     public GameObject projectilePrefab;
 
     private GameObject projectile;
@@ -37,7 +37,9 @@ public class WeaponController : MonoBehaviour
         float moveX = worldpos.x - transform.position.x;
         float moveY = worldpos.y - transform.position.y;
 
-        rb.velocity = new Vector3(moveX, moveY, 0) * projectileSpeed;
+        //rb.velocity = new Vector3(moveX, moveY, 0) * projectileSpeed;
+        projectile.GetComponent<Projectile>().target = new Vector3(worldpos.x, worldpos.y, -2);
+        projectile.GetComponent<Projectile>().projectileSpeed = projectileSpeed;
     }
 
     public void DamagePowerUp(float damage)

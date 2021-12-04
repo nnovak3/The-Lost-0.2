@@ -526,6 +526,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  cooldown: 1
   enemyDamage: 10
   projectileSpeed: 1
   maxHealth: 30
@@ -1070,6 +1072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_0 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7603017986940337263, guid: 33d7f0da147948c44b042e318de08147, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d7f0da147948c44b042e318de08147, type: 3}
 --- !u!4 &100770218 stripped
@@ -1353,6 +1359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  cooldown: 1
   enemyDamage: 10
   projectileSpeed: 1
   maxHealth: 30
@@ -1992,6 +2000,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  cooldown: 1
   enemyDamage: 10
   projectileSpeed: 1
   maxHealth: 30
@@ -2519,6 +2529,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  cooldown: 1
   enemyDamage: 10
   projectileSpeed: 1
   maxHealth: 30
@@ -5115,6 +5127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  cooldown: 1
   enemyDamage: 10
   projectileSpeed: 1
   maxHealth: 30
@@ -5843,6 +5857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_0 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7603017986940337263, guid: 33d7f0da147948c44b042e318de08147, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d7f0da147948c44b042e318de08147, type: 3}
 --- !u!4 &542931635 stripped
@@ -5946,7 +5964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerDamage: 10
-  projectileSpeed: 2
+  projectileSpeed: 7
   projectilePrefab: {fileID: 1847623272790606303, guid: 37e294d82fc1ab348b3c5ff2ab5ec715, type: 3}
 --- !u!1 &572642282
 GameObject:
@@ -6706,6 +6724,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  cooldown: 1
   enemyDamage: 10
   projectileSpeed: 2
   maxHealth: 100
@@ -8346,6 +8366,10 @@ PrefabInstance:
     - target: {fileID: 7603017986940337263, guid: 33d7f0da147948c44b042e318de08147, type: 3}
       propertyPath: m_Name
       value: Enemy_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603017986940337263, guid: 33d7f0da147948c44b042e318de08147, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d7f0da147948c44b042e318de08147, type: 3}
@@ -10507,6 +10531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  cooldown: 1
   enemyDamage: 10
   projectileSpeed: 3
   maxHealth: 200
@@ -10905,6 +10931,10 @@ PrefabInstance:
     - target: {fileID: 7042146791242760718, guid: d3b23d07585ce254ba8f79e1be13df2c, type: 3}
       propertyPath: m_Name
       value: Temp_DamagePowerUp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042146791242760718, guid: d3b23d07585ce254ba8f79e1be13df2c, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3b23d07585ce254ba8f79e1be13df2c, type: 3}
@@ -11351,6 +11381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  cooldown: 1
   enemyDamage: 10
   projectileSpeed: 1
   maxHealth: 30
@@ -11734,6 +11766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  cooldown: 1
   enemyDamage: 10
   projectileSpeed: 1
   maxHealth: 30
@@ -12304,6 +12338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_0 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7603017986940337263, guid: 33d7f0da147948c44b042e318de08147, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d7f0da147948c44b042e318de08147, type: 3}
 --- !u!4 &1373446193 stripped
@@ -12784,6 +12822,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  cooldown: 1
   enemyDamage: 10
   projectileSpeed: 2
   maxHealth: 100
@@ -14848,6 +14888,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4076b4fe4d6d2c4abb93854b97399fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 10
+  cooldown: 1
   enemyDamage: 10
   projectileSpeed: 1
   maxHealth: 30
@@ -16278,6 +16320,10 @@ PrefabInstance:
     - target: {fileID: 7603017986940337263, guid: 33d7f0da147948c44b042e318de08147, type: 3}
       propertyPath: m_Name
       value: Enemy_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603017986940337263, guid: 33d7f0da147948c44b042e318de08147, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d7f0da147948c44b042e318de08147, type: 3}
@@ -18239,6 +18285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_0 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7603017986940337263, guid: 33d7f0da147948c44b042e318de08147, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d7f0da147948c44b042e318de08147, type: 3}
 --- !u!4 &1967859597 stripped
@@ -19538,6 +19588,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1803775193}
+    - target: {fileID: 7603017986940337262, guid: 33d7f0da147948c44b042e318de08147, type: 3}
+      propertyPath: projectileSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7603017986940337263, guid: 33d7f0da147948c44b042e318de08147, type: 3}
       propertyPath: m_Name
       value: tutorialEnemy

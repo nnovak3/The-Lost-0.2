@@ -21,6 +21,7 @@ TagManager:
   - tutorialDoor
   - tutorialEnemy
   - GunHitPoint
+  - Weapon
   layers:
   - Default
   - TransparentFX

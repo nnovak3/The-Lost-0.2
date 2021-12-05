@@ -4,25 +4,72 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
+
+    List<GameObject> weapons;
+    private int weaponSelected = 0;
+    private int numWeapons = -1;
+
+    public GameObject superWeapon;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        weapons = new List<GameObject>();
+        getPlayerWeapons();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
 
+            Debug.Log("player is switching weapons " + weaponSelected + " " + numWeapons);
 
+            weapons[weaponSelected].SetActive(false);
+
+            if(weaponSelected >= numWeapons)
+            {
+                weaponSelected = 0;
+            }
+            else
+            {
+                weaponSelected++;
+            }
+
+            weapons[weaponSelected].SetActive(true);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name == ("Pistol"))
         {
-            Debug.Log("shit works");
             col.gameObject.transform.parent = gameObject.transform;
+            col.gameObject.SetActive(false);
+            col.gameObject.GetComponent<WeaponController>().enabled = true;
+            weapons.Add(col.gameObject);
+
+            Debug.Log("pistol added");
+            numWeapons++;
+
+        }else if(col.gameObject.name == ("SuperWeapon"))
+        {
+            col.gameObject.transform.parent = gameObject.transform;
+            col.gameObject.SetActive(false);
+            col.gameObject.GetComponent<SuperWeaponController>().enabled = true;
+            weapons.Add(superWeapon);
+            numWeapons++;
+        }
+    }
+
+    void getPlayerWeapons()
+    {
+        for(int i = 0; i < transform.childCount; i++)
+        {
+            weapons.Add(transform.GetChild(i).gameObject);
+            Debug.Log("added");
+            numWeapons++;
         }
     }
 }

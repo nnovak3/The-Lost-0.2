@@ -593,7 +593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 31186424}
   - component: {fileID: 31186425}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chair (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,7 +846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 53496144}
   - component: {fileID: 53496145}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -930,7 +930,7 @@ GameObject:
   - component: {fileID: 55551900}
   - component: {fileID: 55551899}
   - component: {fileID: 55551898}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fold (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1190,7 +1190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 77630663}
   - component: {fileID: 77630664}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1329,7 +1329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 81558144}
   - component: {fileID: 81558145}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1637,7 +1637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 91560329}
   - component: {fileID: 91560330}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hospital
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1921,7 +1921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 116810618}
   - component: {fileID: 116810619}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Burner 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2002,7 +2002,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 117472302}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Squad Bays
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2080,7 +2080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138287942}
   - component: {fileID: 138287943}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2164,7 +2164,7 @@ GameObject:
   - component: {fileID: 142905026}
   - component: {fileID: 142905025}
   - component: {fileID: 142905024}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2361,7 +2361,7 @@ GameObject:
   - component: {fileID: 147317904}
   - component: {fileID: 147317903}
   - component: {fileID: 147317902}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2556,7 +2556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 164607074}
   - component: {fileID: 164607075}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2907,7 +2907,7 @@ GameObject:
   - component: {fileID: 178872170}
   - component: {fileID: 178872169}
   - component: {fileID: 178872168}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fold (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3038,7 +3038,7 @@ GameObject:
   - component: {fileID: 185883263}
   - component: {fileID: 185883262}
   - component: {fileID: 185883261}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3169,7 +3169,7 @@ GameObject:
   - component: {fileID: 196753906}
   - component: {fileID: 196753905}
   - component: {fileID: 196753904}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3300,7 +3300,7 @@ GameObject:
   - component: {fileID: 199352019}
   - component: {fileID: 199352021}
   - component: {fileID: 199352020}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Island
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3465,7 +3465,7 @@ GameObject:
   - component: {fileID: 208515451}
   - component: {fileID: 208515450}
   - component: {fileID: 208515449}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3932,7 +3932,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253741422}
   - component: {fileID: 253741423}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4116,7 +4116,7 @@ GameObject:
   - component: {fileID: 260324488}
   - component: {fileID: 260324487}
   - component: {fileID: 260324486}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4315,7 +4315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 269236851}
   - component: {fileID: 269236852}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4454,7 +4454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 282654322}
   - component: {fileID: 282654323}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4906,7 +4906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 308101737}
   - component: {fileID: 308101738}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5122,7 +5122,7 @@ GameObject:
   - component: {fileID: 318261274}
   - component: {fileID: 318261273}
   - component: {fileID: 318261272}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5561,7 +5561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 344828893}
   - component: {fileID: 344828894}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: border (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5716,7 +5716,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 348160868}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Decor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5910,7 +5910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361687104}
   - component: {fileID: 361687105}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5994,7 +5994,7 @@ GameObject:
   - component: {fileID: 366242118}
   - component: {fileID: 366242117}
   - component: {fileID: 366242116}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6390,7 +6390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 378269392}
   - component: {fileID: 378269393}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Faucet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6603,7 +6603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 384042418}
   - component: {fileID: 384042419}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6947,7 +6947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 393235398}
   - component: {fileID: 393235399}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7814,7 +7814,7 @@ GameObject:
   - component: {fileID: 475421500}
   - component: {fileID: 475421499}
   - component: {fileID: 475421498}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fold (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8409,7 +8409,7 @@ GameObject:
   - component: {fileID: 514074234}
   - component: {fileID: 514074233}
   - component: {fileID: 514074232}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8612,7 +8612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519010774}
   - component: {fileID: 519010775}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8924,7 +8924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 537785325}
   - component: {fileID: 537785326}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: border (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9072,7 +9072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 552788066}
   - component: {fileID: 552788067}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chair (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9287,7 +9287,7 @@ GameObject:
   - component: {fileID: 567537357}
   - component: {fileID: 567537356}
   - component: {fileID: 567537355}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10125,7 +10125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 605548184}
   - component: {fileID: 605548185}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10350,7 +10350,7 @@ GameObject:
   - component: {fileID: 613168071}
   - component: {fileID: 613168070}
   - component: {fileID: 613168069}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10553,7 +10553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 640277400}
   - component: {fileID: 640277401}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10635,7 +10635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 640307959}
   - component: {fileID: 640307960}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10849,7 +10849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 652124772}
   - component: {fileID: 652124773}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11130,7 +11130,7 @@ GameObject:
   - component: {fileID: 663622076}
   - component: {fileID: 663622075}
   - component: {fileID: 663622074}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12378,7 +12378,7 @@ GameObject:
   - component: {fileID: 725750015}
   - component: {fileID: 725750014}
   - component: {fileID: 725750013}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fold (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12507,7 +12507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 731201335}
   - component: {fileID: 731201336}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12927,7 +12927,7 @@ GameObject:
   - component: {fileID: 754522971}
   - component: {fileID: 754522970}
   - component: {fileID: 754522969}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fold (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13488,7 +13488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 781009559}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Island
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13526,7 +13526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 782685032}
   - component: {fileID: 782685033}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13608,7 +13608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 785499752}
   - component: {fileID: 785499753}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13887,7 +13887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 828702809}
   - component: {fileID: 828702810}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: words (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14111,7 +14111,7 @@ GameObject:
   - component: {fileID: 846642202}
   - component: {fileID: 846642201}
   - component: {fileID: 846642200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14447,7 +14447,7 @@ GameObject:
   - component: {fileID: 856435028}
   - component: {fileID: 856435027}
   - component: {fileID: 856435026}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fold (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14773,7 +14773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 880802735}
   - component: {fileID: 880802736}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15259,7 +15259,7 @@ GameObject:
   - component: {fileID: 922399356}
   - component: {fileID: 922399355}
   - component: {fileID: 922399354}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stove
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15458,7 +15458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941369074}
   - component: {fileID: 941369075}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15809,7 +15809,7 @@ GameObject:
   - component: {fileID: 951583216}
   - component: {fileID: 951583215}
   - component: {fileID: 951583214}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15938,7 +15938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 957575461}
   - component: {fileID: 957575462}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16224,7 +16224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 979616454}
   - component: {fileID: 979616455}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: words (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16306,7 +16306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 990100655}
   - component: {fileID: 990100656}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16587,7 +16587,7 @@ GameObject:
   - component: {fileID: 1024741494}
   - component: {fileID: 1024741493}
   - component: {fileID: 1024741492}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fold (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16927,7 +16927,7 @@ GameObject:
   - component: {fileID: 1039051665}
   - component: {fileID: 1039051664}
   - component: {fileID: 1039051663}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17122,7 +17122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1055018221}
   - component: {fileID: 1055018222}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Burner 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17209,7 +17209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1060677660}
   - component: {fileID: 1060677661}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17357,7 +17357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1068201270}
   - component: {fileID: 1068201271}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17441,7 +17441,7 @@ GameObject:
   - component: {fileID: 1071356198}
   - component: {fileID: 1071356197}
   - component: {fileID: 1071356196}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17604,7 +17604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1083286873}
   - component: {fileID: 1083286874}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17685,7 +17685,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1088185005}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Galley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18219,7 +18219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1120889804}
   - component: {fileID: 1120889805}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18377,7 +18377,7 @@ GameObject:
   - component: {fileID: 1138020797}
   - component: {fileID: 1138020796}
   - component: {fileID: 1138020795}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18508,7 +18508,7 @@ GameObject:
   - component: {fileID: 1140340937}
   - component: {fileID: 1140340936}
   - component: {fileID: 1140340935}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18707,7 +18707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171555214}
   - component: {fileID: 1171555215}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19547,7 +19547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1239205897}
   - component: {fileID: 1239205898}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: words
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20054,7 +20054,7 @@ GameObject:
   - component: {fileID: 1261332752}
   - component: {fileID: 1261332751}
   - component: {fileID: 1261332750}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20388,7 +20388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1271024106}
   - component: {fileID: 1271024107}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20470,7 +20470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1278130414}
   - component: {fileID: 1278130415}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: border (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20552,7 +20552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1287928059}
   - component: {fileID: 1287928060}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20748,7 +20748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1321476021}
   - component: {fileID: 1321476022}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21388,7 +21388,7 @@ GameObject:
   - component: {fileID: 1375674683}
   - component: {fileID: 1375674682}
   - component: {fileID: 1375674681}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21799,7 +21799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1387992789}
   - component: {fileID: 1387992790}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21881,7 +21881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1388542970}
   - component: {fileID: 1388542971}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21965,7 +21965,7 @@ GameObject:
   - component: {fileID: 1392578530}
   - component: {fileID: 1392578529}
   - component: {fileID: 1392578528}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22096,7 +22096,7 @@ GameObject:
   - component: {fileID: 1398418725}
   - component: {fileID: 1398418724}
   - component: {fileID: 1398418723}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22293,7 +22293,7 @@ GameObject:
   - component: {fileID: 1402225344}
   - component: {fileID: 1402225343}
   - component: {fileID: 1402225342}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fold (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22422,7 +22422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1403474645}
   - component: {fileID: 1403474646}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22640,6 +22640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1421259749}
   - component: {fileID: 1421259750}
+  - component: {fileID: 1421259751}
   m_Layer: 3
   m_Name: Chamber
   m_TagString: Untagged
@@ -22714,6 +22715,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!122 &1421259751
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421259748}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4283519314
+  m_Size: 1
 --- !u!1 &1423413532
 GameObject:
   m_ObjectHideFlags: 0
@@ -22726,7 +22739,7 @@ GameObject:
   - component: {fileID: 1423413536}
   - component: {fileID: 1423413535}
   - component: {fileID: 1423413534}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22858,7 +22871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1425152918}
   - component: {fileID: 1425152919}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22939,7 +22952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1425758131}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Kitchen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22975,7 +22988,7 @@ GameObject:
   - component: {fileID: 1427038660}
   - component: {fileID: 1427038659}
   - component: {fileID: 1427038658}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23104,7 +23117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1435270524}
   - component: {fileID: 1435270525}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23317,7 +23330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1448282123}
   - component: {fileID: 1448282124}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23399,7 +23412,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1448580942}
   - component: {fileID: 1448580943}
-  m_Layer: 0
+  - component: {fileID: 1448580944}
+  - component: {fileID: 1448580945}
+  - component: {fileID: 1448580946}
+  m_Layer: 3
   m_Name: Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23480,6 +23496,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!122 &1448580944
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448580941}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 1
+--- !u!58 &1448580945
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448580941}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0000076293945, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!114 &1448580946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448580941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b7f1aeabde349dfb237a0ecb073ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1451736535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23558,7 +23614,7 @@ GameObject:
   - component: {fileID: 1458117817}
   - component: {fileID: 1458117816}
   - component: {fileID: 1458117815}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23810,7 +23866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1473646858}
   - component: {fileID: 1473646859}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Burner 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24190,7 +24246,7 @@ GameObject:
   - component: {fileID: 1492941124}
   - component: {fileID: 1492941123}
   - component: {fileID: 1492941122}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24355,7 +24411,7 @@ GameObject:
   - component: {fileID: 1501599556}
   - component: {fileID: 1501599555}
   - component: {fileID: 1501599554}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24483,7 +24539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1511485922}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24533,7 +24589,7 @@ GameObject:
   - component: {fileID: 1512923397}
   - component: {fileID: 1512923396}
   - component: {fileID: 1512923395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24662,7 +24718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1515772865}
   - component: {fileID: 1515772866}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24875,7 +24931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1522709557}
   - component: {fileID: 1522709558}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24957,7 +25013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1528300864}
   - component: {fileID: 1528300865}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25170,7 +25226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1528558368}
   - component: {fileID: 1528558369}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25673,7 +25729,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1566645501}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Details
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25710,9 +25766,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1567546783}
-  m_Layer: 0
+  - component: {fileID: 1567546784}
+  - component: {fileID: 1567546785}
+  - component: {fileID: 1567546786}
+  m_Layer: 3
   m_Name: Key Card
-  m_TagString: Untagged
+  m_TagString: PlayerProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25725,13 +25784,53 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567546782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1448580942}
   m_Father: {fileID: 1566645501}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1567546784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567546782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b7f1aeabde349dfb237a0ecb073ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1567546785
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567546782}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!114 &1567546786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567546782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b7f1aeabde349dfb237a0ecb073ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1575626324
 GameObject:
   m_ObjectHideFlags: 0
@@ -25742,7 +25841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1575626325}
   - component: {fileID: 1575626326}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Burner 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25826,7 +25925,7 @@ GameObject:
   - component: {fileID: 1580007866}
   - component: {fileID: 1580007865}
   - component: {fileID: 1580007864}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26021,7 +26120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1605625666}
   - component: {fileID: 1605625667}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26153,7 +26252,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4278190335
-  m_Size: 0.5
+  m_Size: 0.25
 --- !u!1001 &1619741832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26953,7 +27052,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1675525075}
   - component: {fileID: 1675525076}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27101,7 +27200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1680521102}
   - component: {fileID: 1680521103}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27183,7 +27282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1687297732}
   - component: {fileID: 1687297733}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27816,7 +27915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1737680211}
   - component: {fileID: 1737680212}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27898,7 +27997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1739235274}
   - component: {fileID: 1739235275}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27982,7 +28081,7 @@ GameObject:
   - component: {fileID: 1753054364}
   - component: {fileID: 1753054363}
   - component: {fileID: 1753054362}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28111,7 +28210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1755018228}
   - component: {fileID: 1755018229}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28324,7 +28423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1760354138}
   - component: {fileID: 1760354139}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chair (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28698,7 +28797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1775629180}
   - component: {fileID: 1775629181}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29058,7 +29157,7 @@ GameObject:
   - component: {fileID: 1790395238}
   - component: {fileID: 1790395237}
   - component: {fileID: 1790395236}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29187,7 +29286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1794381171}
   - component: {fileID: 1794381172}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29762,7 +29861,7 @@ GameObject:
   - component: {fileID: 1827604303}
   - component: {fileID: 1827604302}
   - component: {fileID: 1827604301}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29970,7 +30069,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1831252950}
   - component: {fileID: 1831252951}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chair (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30249,7 +30348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1845930827}
   - component: {fileID: 1845930828}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: details
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30551,7 +30650,7 @@ GameObject:
   - component: {fileID: 1865597290}
   - component: {fileID: 1865597289}
   - component: {fileID: 1865597288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31167,7 +31266,7 @@ GameObject:
   - component: {fileID: 1886262377}
   - component: {fileID: 1886262376}
   - component: {fileID: 1886262375}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31364,7 +31463,7 @@ GameObject:
   - component: {fileID: 1896883542}
   - component: {fileID: 1896883541}
   - component: {fileID: 1896883540}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31492,7 +31591,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1898982790}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bed/Bedding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31764,7 +31863,7 @@ GameObject:
   - component: {fileID: 1911973722}
   - component: {fileID: 1911973721}
   - component: {fileID: 1911973720}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32086,7 +32185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1931157227}
   - component: {fileID: 1931157228}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32300,7 +32399,7 @@ GameObject:
   - component: {fileID: 1938679011}
   - component: {fileID: 1938679010}
   - component: {fileID: 1938679009}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fold (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32431,7 +32530,7 @@ GameObject:
   - component: {fileID: 1954918344}
   - component: {fileID: 1954918343}
   - component: {fileID: 1954918342}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33019,7 +33118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966212270}
   - component: {fileID: 1966212271}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hospital
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33243,7 +33342,7 @@ GameObject:
   - component: {fileID: 1995459404}
   - component: {fileID: 1995459403}
   - component: {fileID: 1995459402}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fold (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33438,7 +33537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1996614006}
   - component: {fileID: 1996614007}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chair (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33520,7 +33619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2007950299}
   - component: {fileID: 2007950300}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33602,7 +33701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2016502119}
   - component: {fileID: 2016502120}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33686,7 +33785,7 @@ GameObject:
   - component: {fileID: 2022569838}
   - component: {fileID: 2022569837}
   - component: {fileID: 2022569836}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33990,7 +34089,7 @@ GameObject:
   - component: {fileID: 2052053671}
   - component: {fileID: 2052053670}
   - component: {fileID: 2052053669}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34126,7 +34225,7 @@ GameObject:
   - component: {fileID: 2056322043}
   - component: {fileID: 2056322042}
   - component: {fileID: 2056322041}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Blanket (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34386,7 +34485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2073200524}
   - component: {fileID: 2073200525}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34468,7 +34567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2074811572}
   - component: {fileID: 2074811573}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34595,7 +34694,6 @@ GameObject:
   - component: {fileID: 2081649869}
   - component: {fileID: 2081649867}
   - component: {fileID: 2081649868}
-  - component: {fileID: 2081649870}
   m_Layer: 3
   m_Name: Pistol
   m_TagString: PlayerProjectile
@@ -34663,19 +34761,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.48, y: 0.1}
   serializedVersion: 2
-  m_Radius: 0.7
---- !u!122 &2081649870
-Halo:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081649865}
-  m_Enabled: 1
-  m_Color:
-    serializedVersion: 2
-    rgba: 4284506208
-  m_Size: 1
+  m_Radius: 1
 --- !u!1 &2083408893
 GameObject:
   m_ObjectHideFlags: 0
@@ -34859,7 +34945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2085340526}
   - component: {fileID: 2085340527}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: words (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34943,7 +35029,7 @@ GameObject:
   - component: {fileID: 2103776148}
   - component: {fileID: 2103776147}
   - component: {fileID: 2103776146}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rack (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

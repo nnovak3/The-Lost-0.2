@@ -35,7 +35,7 @@ public class UITxt : MonoBehaviour
             }
             else if (promptCounter == 2)
             {
-                uiText.text = ("[use the 'WASD' keys to move. Use 'e' to interact with objects]");
+                uiText.text = ("[use the 'w-a-s-d' keys to move. Use 'f' to interact with objects]");
                 promptCounter++;
                 promptNo++;
 
@@ -53,7 +53,7 @@ public class UITxt : MonoBehaviour
                 promptCounter++;
                 promptNo ++;
             }
-            else if (promptCounter == 4)
+            else if (promptCounter == 5)
             {
                 uiText.text = ("[Once you pick up the pistol, use left click to fire the weapon]");
                 promptCounter++;

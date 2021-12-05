@@ -8,12 +8,22 @@ public class PlayerCombat : MonoBehaviour
     public float attackRange = .5f;
     public LayerMask enemyLayers;
 
+    void Start()
+    {
+        Behaviour halo = (Behaviour)GetComponent("Halo");
+        halo.enabled = false;
+    }
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Attack();
+        } 
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            Behaviour halo = (Behaviour)GetComponent("Halo");
+            halo.enabled = false;
         }
     }
 
@@ -23,6 +33,8 @@ public class PlayerCombat : MonoBehaviour
         foreach(Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<EnemyController>().TakeDamage(4);
+            Behaviour halo = (Behaviour)GetComponent("Halo");
+            halo.enabled = true;
         }
     }
 

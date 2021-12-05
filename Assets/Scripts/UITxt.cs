@@ -35,14 +35,14 @@ public class UITxt : MonoBehaviour
             }
             else if (promptCounter == 2)
             {
-                uiText.text = ("[use the 'wasd' keys to move. Use 'e' to interact with objects]");
+                uiText.text = ("[use the 'WASD' keys to move. Use 'e' to interact with objects]");
                 promptCounter++;
                 promptNo++;
 
             }
             else if (promptCounter == 3)
             {
-                uiText.text = ("[use the left mouse click to fire your sword shaped pistol]");
+                uiText.text = ("[use the SPACE bar to melee]");
                 promptCounter++;
                 promptNo++;
 
@@ -51,9 +51,13 @@ public class UITxt : MonoBehaviour
             {
                 uiText.text = ("[Defeat the enemy in the next room to unlock the door]");
                 promptCounter++;
+                promptNo ++;
+            }
+            else if (promptCounter == 4)
+            {
+                uiText.text = ("[Once you pick up the pistol, use left click to fire the weapon]");
+                promptCounter++;
                 promptNo = 0;
-
-
             }
             else if (usedItem == "PPAADD")
             {

@@ -9475,6 +9475,7 @@ GameObject:
   - component: {fileID: 571243256}
   - component: {fileID: 571243257}
   - component: {fileID: 571243258}
+  - component: {fileID: 571243259}
   m_Layer: 6
   m_Name: Temp_Weapon0
   m_TagString: Untagged
@@ -9576,6 +9577,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b7f1aeabde349dfb237a0ecb073ba2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!122 &571243259
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571243254}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190335
+  m_Size: 0.75
 --- !u!1 &572642282
 GameObject:
   m_ObjectHideFlags: 0
@@ -34569,6 +34582,7 @@ GameObject:
   - component: {fileID: 2081649869}
   - component: {fileID: 2081649867}
   - component: {fileID: 2081649868}
+  - component: {fileID: 2081649870}
   m_Layer: 3
   m_Name: Pistol
   m_TagString: PlayerProjectile
@@ -34637,6 +34651,18 @@ CircleCollider2D:
   m_Offset: {x: 0.48, y: 0.1}
   serializedVersion: 2
   m_Radius: 0.7
+--- !u!122 &2081649870
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081649865}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_Size: 1
 --- !u!1 &2083408893
 GameObject:
   m_ObjectHideFlags: 0

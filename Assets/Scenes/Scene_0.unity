@@ -26103,6 +26103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1606451068}
   - component: {fileID: 1606451069}
+  - component: {fileID: 1606451070}
   m_Layer: 6
   m_Name: AttackPoint
   m_TagString: Untagged
@@ -26141,6 +26142,18 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 2048
+--- !u!122 &1606451070
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606451067}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190335
+  m_Size: 0.5
 --- !u!1001 &1619741832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34661,7 +34674,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4284506208
   m_Size: 1
 --- !u!1 &2083408893
 GameObject:

@@ -29569,6 +29569,7 @@ GameObject:
   - component: {fileID: 1803775198}
   - component: {fileID: 1803775197}
   - component: {fileID: 1803775199}
+  - component: {fileID: 1803775200}
   m_Layer: 6
   m_Name: Player_0
   m_TagString: Player
@@ -29717,6 +29718,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiText: {fileID: 912699157}
+--- !u!114 &1803775200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803775193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5827223ae083a3549bce32dc117f20fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1804004075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34693,7 +34706,6 @@ GameObject:
   - component: {fileID: 2081649866}
   - component: {fileID: 2081649869}
   - component: {fileID: 2081649867}
-  - component: {fileID: 2081649868}
   m_Layer: 3
   m_Name: Pistol
   m_TagString: PlayerProjectile
@@ -34734,18 +34746,6 @@ MonoBehaviour:
   playerDamage: 10
   projectileSpeed: 10
   projectilePrefab: {fileID: 8330893180109650227, guid: 587808a8b22d0a0438a3faae095d4e69, type: 3}
---- !u!114 &2081649868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081649865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70b7f1aeabde349dfb237a0ecb073ba2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &2081649869
 CircleCollider2D:
   m_ObjectHideFlags: 0

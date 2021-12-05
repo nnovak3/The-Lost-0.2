@@ -10,6 +10,7 @@ public class UITxt : MonoBehaviour
     int promptNo = 0;
     bool trigEnter = false;
     bool trigExit = true;
+    int noEText = 0;
     Collider2D checker;
     string usedItem = "";
 
@@ -24,36 +25,37 @@ public class UITxt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("e") && uiText.text == "" || Input.GetKeyDown("e") && promptNo != 0 )
+        if (Input.GetKeyDown("e") && uiText.text == "" || Input.GetKeyDown("e") && promptNo != 0)
         {
-            if(promptCounter == 1)
+            if (promptCounter == 1)
             {
-                uiText.text = ("Right, the infermary. Where is everybody? [press 'e' to continue]");
+                uiText.text = ("Right, the infermary. Where is everybody?");
                 promptCounter++;
-                promptNo++;      
+                promptNo++;
             }
             else if (promptCounter == 2)
             {
-                uiText.text = ("[use the 'wasd' keys to move. Use 'f' to interact with objects][press 'e' to continue]");
+                uiText.text = ("[use the 'wasd' keys to move. Use 'e' to interact with objects]");
                 promptCounter++;
-                promptNo ++;
+                promptNo++;
 
             }
             else if (promptCounter == 3)
             {
-                uiText.text = ("[use the spacebar to melee with your knife][press 'e' to continue]");
+                uiText.text = ("[use the left mouse click to fire your sword shaped pistol]");
                 promptCounter++;
-                promptNo ++;
+                promptNo++;
 
             }
             else if (promptCounter == 4)
             {
-                uiText.text = ("Melee the enemy in the next room to unlock the door [press 'e' to end instructions]");
+                uiText.text = ("[Defeat the enemy in the next room to unlock the door]");
                 promptCounter++;
                 promptNo = 0;
 
+
             }
-            else if(usedItem == "PPAADD")
+            else if (usedItem == "PPAADD")
             {
                 if (promptNo == 0)
                 {
@@ -98,8 +100,13 @@ public class UITxt : MonoBehaviour
             uiText.text = "";
             promptNo = 0;
         }
+        if (GameObject.FindWithTag("tutorialEnemy") == null && noEText == 0)
+        {
+            uiText.text = ("Shit! What was that thing?");
+            noEText++;
+        }
     }
-    
+
     void OnTriggerEnter2D(Collider2D obj)
     {
         if (obj.gameObject.tag == ("interactable"))
@@ -110,31 +117,28 @@ public class UITxt : MonoBehaviour
             usedItem = obj.gameObject.name;
 
         }
+
     }
 
     void OnTriggerExit2D(Collider2D obj)
     {
-            if (obj.gameObject.tag == ("interactable"))
-            {
-                //Debug.Log("Exited");
-                trigEnter = false;
-                trigExit = true;
-                usedItem = "";
-            }
+        if (obj.gameObject.tag == ("interactable"))
+        {
+            //Debug.Log("Exited");
+            trigEnter = false;
+            trigExit = true;
+            usedItem = "";
+        }
     }
-        
-          
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == ("MiniBossDoor") | col.gameObject.tag == ("tutorialDoor") | col.gameObject.tag == ("Boss") | col.gameObject.tag == ("MiniBossDoor2"))
+        {
+            uiText.text = ("Hmm, this door is locked.");
+        }
+    }
+
+
 }
 
 
-/*void OnTriggerEnter2D(Collider2D obj)
-    {
-        if (obj.gameObject.tag == ("interactable"))
-        {
-            Debug.Log("Entered");
-            trigEnter = true;
-            trigExit = false;
-            uiText.text = ("Hey rookie. I know you never got the grand tour of the palce before you got laid up");
-           
-        }
-    }*/

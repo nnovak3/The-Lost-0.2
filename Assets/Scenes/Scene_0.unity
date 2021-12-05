@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 192495}
   m_Layer: 3
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: MiniBossDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4531,7 +4531,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1786090420}
+    m_TransformParent: {fileID: 757765243}
     m_Modifications:
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_RootOrder
@@ -4539,11 +4539,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 48
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -56
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9158,7 +9158,7 @@ GameObject:
   - component: {fileID: 554022013}
   m_Layer: 3
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: MiniBossDoor2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11907,7 +11907,7 @@ GameObject:
   - component: {fileID: 707460874}
   m_Layer: 3
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: MiniBossDoor2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13047,7 +13047,7 @@ GameObject:
   - component: {fileID: 757426964}
   m_Layer: 3
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13195,6 +13195,8 @@ Transform:
   - {fileID: 937561823}
   - {fileID: 1779291531}
   - {fileID: 473833937}
+  - {fileID: 283783098}
+  - {fileID: 851230907}
   m_Father: {fileID: 1779057969}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14351,7 +14353,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1786090420}
+    m_TransformParent: {fileID: 757765243}
     m_Modifications:
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_RootOrder
@@ -14359,11 +14361,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14375,15 +14377,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 77648529193702449, guid: 3871c4ee99319534091d8b024e1d916b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -20246,7 +20248,7 @@ GameObject:
   - component: {fileID: 1270375637}
   m_Layer: 3
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: MiniBossDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25028,7 +25030,7 @@ GameObject:
   - component: {fileID: 1528339763}
   m_Layer: 3
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: MiniBossDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28169,7 +28171,7 @@ GameObject:
   - component: {fileID: 1757989365}
   m_Layer: 3
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: MiniBossDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28933,8 +28935,6 @@ Transform:
   - {fileID: 1460884740}
   - {fileID: 345426561}
   - {fileID: 436174853}
-  - {fileID: 283783098}
-  - {fileID: 851230907}
   m_Father: {fileID: 1705853644}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -31876,7 +31876,7 @@ GameObject:
   - component: {fileID: 1924028226}
   m_Layer: 3
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: MiniBossDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34233,7 +34233,7 @@ GameObject:
   - component: {fileID: 2070465460}
   m_Layer: 3
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: MiniBossDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35267,7 +35267,7 @@ GameObject:
   - component: {fileID: 2105405756}
   m_Layer: 3
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: MiniBossDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

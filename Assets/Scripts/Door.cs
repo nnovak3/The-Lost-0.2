@@ -36,10 +36,11 @@ public class Door : MonoBehaviour
         {
             tutorialEnemy = false;
         }
-        if(GameObject.Find("Key Card") == null){
-            keyCard = false;   
+        if(GameObject.Find("Key") == null){
+            keyCard = false;
+            Debug.Log("Key down");
         }
-        if(GameObject.Find("Player_0").transform.childCount == 3)
+        if (GameObject.Find("Player_0").transform.childCount == 3)
         {
             allWeapons = true;
         }

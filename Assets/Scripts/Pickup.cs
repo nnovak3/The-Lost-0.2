@@ -55,7 +55,7 @@ public class Pickup : MonoBehaviour
 
         }else if(col.gameObject.name == ("SuperWeapon"))
         {
-            Debug.Log("Sup noted");
+            
             col.gameObject.transform.parent = gameObject.transform;
             col.gameObject.SetActive(false);
             col.gameObject.transform.GetChild(0).GetComponent<SuperWeaponController>().enabled = true;

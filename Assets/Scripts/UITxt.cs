@@ -35,7 +35,7 @@ public class UITxt : MonoBehaviour
             }
             else if (promptCounter == 2)
             {
-                uiText.text = ("[use the 'w-a-s-d' keys to move. Use 'f' to interact with objects]");
+                uiText.text = ("[use the 'w-a-s-d' keys to move. Walk over glowing objects to pick them up]");
                 promptCounter++;
                 promptNo++;
 
@@ -55,7 +55,7 @@ public class UITxt : MonoBehaviour
             }
             else if (promptCounter == 5)
             {
-                uiText.text = ("[Once you pick up the pistol, use left click to fire the weapon]");
+                uiText.text = ("[Once you pick up a weapon press 'q' to select, and use left click to fire the weapon]");
                 promptCounter++;
                 promptNo = 0;
             }
@@ -136,9 +136,17 @@ public class UITxt : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == ("MiniBossDoor") | col.gameObject.tag == ("tutorialDoor") | col.gameObject.tag == ("Boss") | col.gameObject.tag == ("MiniBossDoor2"))
+        if (col.gameObject.tag == ("tutorialDoor"))
         {
             uiText.text = ("Hmm, this door is locked.");
+        }
+        if (col.gameObject.tag == ("MiniBossDoor") | col.gameObject.tag == ("MiniBossDoor2"))
+        {
+            uiText.text = ("This door is locked, defeat the miniboss.");
+        }
+        if (col.gameObject.tag == ("Boss"))
+        {
+            uiText.text = ("This door is locked, defeat both minibosses, and obtain the super weapon.");
         }
     }
 

@@ -20,7 +20,7 @@ public class WeaponPickup : MonoBehaviour {
     {
         if (collision.tag == "Player")
         {
-            Destroy(gameObject);
+           // Destroy(gameObject);
         }        
     }
 }

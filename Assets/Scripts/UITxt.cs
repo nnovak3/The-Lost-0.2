@@ -15,10 +15,15 @@ public class UITxt : MonoBehaviour
     string usedItem = "";
 
 
+    //TODO: Force player to scroll through text
+    //refine tutorial
+    // Explain keycard on pickup
+    //FIX TEXT SCROLLING
+
     // Start is called before the first frame update
     void Start()
     {
-        uiText.text = ("Ugh... where am I? [press 'e' to continue]");
+        uiText.text = ("Ugh... where am I? [press 'e' to continue] -->");
         promptCounter++;
         promptNo++;
     }
@@ -30,33 +35,33 @@ public class UITxt : MonoBehaviour
         {
             if (promptCounter == 1)
             {
-                uiText.text = ("Right, the infermary. Where is everybody?");
+                uiText.text = ("Right, the infermary. Where is everybody? -->");
                 promptCounter++;
                 promptNo++;
             }
             else if (promptCounter == 2)
             {
-                uiText.text = ("[use the 'w-a-s-d' keys to move. Walk over glowing objects to pick them up]");
+                uiText.text = ("[use the 'w-a-s-d' keys to move. Walk over glowing objects to pick them up]-->");
                 promptCounter++;
                 promptNo++;
 
             }
             else if (promptCounter == 3)
             {
-                uiText.text = ("[use the SPACE bar to melee]");
+                uiText.text = ("[use the SPACE bar to melee]-->");
                 promptCounter++;
                 promptNo++;
 
             }
             else if (promptCounter == 4)
             {
-                uiText.text = ("[Defeat the enemy in the next room to unlock the door]");
+                uiText.text = ("[Defeat the enemy in the next room to unlock the door]-->");
                 promptCounter++;
                 promptNo ++;
             }
             else if (promptCounter == 5)
             {
-                uiText.text = ("[Once you pick up a weapon press 'q' to select, and use left click to fire the weapon]");
+                uiText.text = ("[Once you pick up a weapon press 'q' to select, and use left click to fire the weapon]");//move this on the pickup of the weapon
                 promptCounter++;
                 promptNo = 0;
             }
@@ -68,8 +73,8 @@ public class UITxt : MonoBehaviour
         }
         if (GameObject.FindWithTag("tutorialEnemy") == null && noEText == 0)
         {
-            uiText.text = ("Shit! What was that thing?");
-            if (Input.GetKeyDown("e") && uiText.text == ("Shit! What was that thing?"))
+            uiText.text = ("Shit! What was that thing?-->");
+            if (Input.GetKeyDown("e") && uiText.text == ("Shit! What was that thing?-->"))
             {
                 noEText++;
                 uiText.text = ("Is that - did it EAT Jenkins?!");

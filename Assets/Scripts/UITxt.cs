@@ -132,6 +132,7 @@ public class UITxt : MonoBehaviour
             trigEnter = false;
             trigExit = true;
             usedItem = "";
+            uiText.text = ("");
         }
     }
     void OnCollisionEnter2D(Collision2D col)

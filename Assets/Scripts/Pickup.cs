@@ -57,12 +57,17 @@ public class Pickup : MonoBehaviour
         {
             Debug.Log("Sup noted");
             col.gameObject.transform.parent = gameObject.transform;
-            //col.gameObject.transform.SetParent(gameObject.transform, false);
             col.gameObject.SetActive(false);
             col.gameObject.transform.GetChild(0).GetComponent<SuperWeaponController>().enabled = true;
             weapons.Add(col.gameObject);
             numWeapons++;
            // Debug.Log(weapons);
+        }
+
+        if(col.gameObject.name == ("Key"))
+        {
+            Debug.Log("test");
+            Destroy(col.gameObject);
         }
     }
 

@@ -10,6 +10,8 @@ public class Door : MonoBehaviour
     bool miniBoss = true; 
     bool miniBoss2 = true;
     bool tutorialEnemy = true;
+    bool keyCard = true;
+    bool allWeapons = false;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +35,13 @@ public class Door : MonoBehaviour
         if (GameObject.FindWithTag("tutorialEnemy") == null)
         {
             tutorialEnemy = false;
+        }
+        if(GameObject.Find("Key Card") == null){
+            keyCard = false;   
+        }
+        if(GameObject.Find("Player_0").transform.childCount == 3)
+        {
+            allWeapons = true;
         }
 
         //if tag == tutorial
@@ -70,7 +79,7 @@ public class Door : MonoBehaviour
         //opens final door
         if (gameObject.CompareTag("Boss") == true)
         {
-            if (miniBoss2 == false && miniBoss == false) //&& weapon got, add later
+            if (miniBoss2 == false && miniBoss == false && keyCard == false && allWeapons == true) //&& weapon got, add later
             {
                 Destroy(gameObject);
             }

@@ -11,18 +11,16 @@ public class FollowPlayer : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         distToPlayer = Vector2.Distance(transform.position, player.transform.position);
         
-        if(distToPlayer <= range && distToPlayer >= 2)
+        if(distToPlayer <= range && distToPlayer >= 5)
         {
             Vector3 direction = player.transform.position - transform.position;
             rb.MovePosition(transform.position + (direction * walkSpeed * Time.deltaTime));

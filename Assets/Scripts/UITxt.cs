@@ -13,12 +13,13 @@ public class UITxt : MonoBehaviour
     int noEText = 0;
     Collider2D checker;
     string usedItem = "";
+    bool bossCheck = false;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        uiText.text = ("Ugh... where am I? [press 'e' to continue]");
+        uiText.text = ("Ugh... where am I? [press 'e' to continue] -->");
         promptCounter++;
         promptNo++;
     }
@@ -30,33 +31,33 @@ public class UITxt : MonoBehaviour
         {
             if (promptCounter == 1)
             {
-                uiText.text = ("Right, the infermary. Where is everybody?");
+                uiText.text = ("Right, the infermary. Where is everybody? -->");
                 promptCounter++;
                 promptNo++;
             }
             else if (promptCounter == 2)
             {
-                uiText.text = ("[use the 'w-a-s-d' keys to move.] \n [Walk over glowing objects to pick up or interact with them]");
+                uiText.text = ("[use the 'w-a-s-d' keys to move. Walk over glowing objects to pick them up] -->");
                 promptCounter++;
                 promptNo++;
 
             }
             else if (promptCounter == 3)
             {
-                uiText.text = ("[use the SPACE bar to melee]");
+                uiText.text = ("[use the SPACE bar to melee] -->");
                 promptCounter++;
                 promptNo++;
 
             }
             else if (promptCounter == 4)
             {
-                uiText.text = ("[Defeat the enemy in the next room to unlock the door]");
+                uiText.text = ("[Defeat the enemy in the next room to unlock the door] -->");
                 promptCounter++;
-                promptNo ++;
+                promptNo++;
             }
             else if (promptCounter == 5)
             {
-                uiText.text = ("[Once you pick up a weapon press 'q' to select,\n and use left click to fire the weapon]");
+                uiText.text = ("[Once you pick up a weapon press 'q' to select, and use left click to fire the weapon]");
                 promptCounter++;
                 promptNo = 0;
             }
@@ -69,18 +70,18 @@ public class UITxt : MonoBehaviour
         if (GameObject.FindWithTag("tutorialEnemy") == null && noEText == 0)
         {
             uiText.text = ("Shit! What was that thing?");
-            if (Input.GetKeyDown("e") && uiText.text == ("Shit! What was that thing?"))
+            if (Input.GetKeyDown("e") && uiText.text == ("Shit! What was that thing? -->"))
             {
                 noEText++;
-                uiText.text = ("Is that - did it EAT Jenkins?!\nI better head to the squad bay to check in on the other guys");
+                uiText.text = ("Is that - did it EAT Jenkins?!");
+                promptNo = 0;
             }
         }
-        
         else if (usedItem == "PPAADD")
         {
             if (promptNo == 0)
             {
-                uiText.text = ("[You pick up a PPAADD - Personal Pocket Access Allowing Display Device]");
+                uiText.text = ("[You pick up a PPAADD - Personal Pocket Access Allowing Display Device] -->");
                 if (Input.GetKeyDown("e"))
                 {
                     promptNo++;
@@ -88,7 +89,7 @@ public class UITxt : MonoBehaviour
             }
             else if (promptNo == 1)
             {
-                uiText.text = ("[You get the feeling that whoever came up with that name was trying way too hard to make a joke]");
+                uiText.text = ("[You get the feeling that whoever came up with that name was trying way too hard to make a joke] -->");
                 if (Input.GetKeyDown("e"))
                 {
                     promptNo++;
@@ -96,7 +97,7 @@ public class UITxt : MonoBehaviour
             }
             else if (promptNo == 2)
             {
-                uiText.text = ("PPAADD: Hey newbie, I know you never got the grand tour of the palce before you got laid up.");
+                uiText.text = ("PPAADD: Hey newbie, I know you never got the grand tour of the palce before you got laid up. -->");
                 if (Input.GetKeyDown("e"))
                 {
                     promptNo++;
@@ -104,7 +105,7 @@ public class UITxt : MonoBehaviour
             }
             else if (promptNo == 3)
             {
-                uiText.text = ("PPAADD: Come see me up in the control room, I'll fill you in.");
+                uiText.text = ("PPAADD: Come see me up in the control room, I'll fill you in. -->");
                 if (Input.GetKeyDown("e"))
                 {
                     promptNo++;
@@ -112,7 +113,7 @@ public class UITxt : MonoBehaviour
             }
             else if (promptNo == 4)
             {
-                uiText.text = ("PPAADD: If Armstrong is up to her \"hazing rituals\" again and locked the door, the access console near the exit will open it.");
+                uiText.text = ("PPAADD: If Armstrong is up to her \"hazing rituals\" again and locked the door, the access console near the exit will open it. -->");
                 if (Input.GetKeyDown("e"))
                 {
                     promptNo++;
@@ -135,52 +136,64 @@ public class UITxt : MonoBehaviour
         else if (GameObject.Find("Final Boss") == null)
         {
 
-            promptNo = 0;
-            uiText.text = ("Sta - *kzzzt* co- *kzzzt* -in *kzzzt*");
-            if (Input.GetKeyDown("e"))
+            //promptNo = 0;
+            if (bossCheck == false)
             {
-                promptNo++;
+                promptNo = 0;
             }
 
-            if (promptNo == 1)
+            if (promptNo == 0 && bossCheck == false)
             {
-                uiText.text = ("Station Delta Sierra Niner, come in!");
-                if (Input.GetKeyDown("e"))
-                {
-                    promptNo++;
-                }
+                uiText.text = ("Sta - *kzzzt* co- *kzzzt* -in *kzzzt* -->");
+                bossCheck = true;
+                
             }
-            if (promptNo == 2)
+
+            if (Input.GetKeyDown("e"))
             {
-                uiText.text = ("This is Station Delta Sierra Niner");
-                if (Input.GetKeyDown("e"))
+
+                promptNo++;
+                if (promptNo == 1)
                 {
-                    promptNo++;
+                    uiText.text = ("Station Delta Sierra Niner, come in! -->");
+                    if (Input.GetKeyDown("e"))
+                    {
+                        promptNo++;
+                    }
                 }
-            }
-            if (promptNo == 3)
-            {
-                uiText.text = ("Finally! We've been trying to get ahold of you guys for an hour! What's going on there?");
-                if (Input.GetKeyDown("e"))
+                else if (promptNo == 2)
                 {
-                    promptNo++;
+                    uiText.text = ("This is Station Delta Sierra Niner -->");
+                    if (Input.GetKeyDown("e"))
+                    {
+                        promptNo++;
+                    }
                 }
-            }
-            if (promptNo == 4)
-            {
-                uiText.text = ("We - the station's been attacked by - things. I'm the only one left alive.");
-                if (Input.GetKeyDown("e"))
+                else if (promptNo == 3)
                 {
-                    promptNo++;
+                    uiText.text = ("Finally! We've been trying to get ahold of you guys for an hour! What's going on there? -->");
+                    if (Input.GetKeyDown("e"))
+                    {
+                        promptNo++;
+                    }
                 }
-            }
-            if (promptNo == 5)
-            {
-                uiText.text = ("Hang in there. We're sending someone to get you.");
-                if (Input.GetKeyDown("e"))
+                else if (promptNo == 4)
                 {
-                    promptNo++;
+                    uiText.text = ("We - the station's been attacked by - things. I'm the only one left alive. -->");
+                    if (Input.GetKeyDown("e"))
+                    {
+                        promptNo++;
+                    }
                 }
+                else if (promptNo == 5)
+                {
+                    uiText.text = ("Hang in there. We're sending someone to get you. [END]");
+                    if (Input.GetKeyDown("e"))
+                    {
+                        promptNo++;
+                    }
+                }
+
             }
         }
     }
@@ -213,7 +226,7 @@ public class UITxt : MonoBehaviour
         int count = 0;
         bool key = false;
 
-        if(GameObject.Find("Key") != null)
+        if (GameObject.Find("Key") != null)
         {
             key = true;
         }
@@ -238,13 +251,13 @@ public class UITxt : MonoBehaviour
             }
 
             else
-                {
+            {
                 if (GameObject.Find("Player_0").transform.childCount < 3)
-                    {
-                      uiText.text = ("[You hear something big moving behind the door. Too big for your little handgun to take. There's gotta be something bigger around here.]");
-                     }
+                {
+                    uiText.text = ("[You hear something big moving behind the door. Too big for your little handgun to take. There's gotta be something bigger around here.]");
                 }
             }
+        }
     }
 
 

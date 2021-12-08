@@ -61,6 +61,16 @@ public class Pickup : MonoBehaviour
             col.gameObject.transform.GetChild(0).GetComponent<SuperWeaponController>().enabled = true;
             weapons.Add(col.gameObject);
             numWeapons++;
+
+            if(transform.localScale.x >= 0)
+            {
+                col.gameObject.transform.localScale = new Vector3(-0.1f, 0.1f, 1);
+            }
+            else
+            {
+                col.gameObject.transform.localScale = new Vector3(0.1f, 0.1f, 1);
+            }
+
            // Debug.Log(weapons);
         }
 

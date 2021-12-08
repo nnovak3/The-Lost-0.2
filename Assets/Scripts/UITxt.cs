@@ -14,6 +14,8 @@ public class UITxt : MonoBehaviour
     Collider2D checker;
     string usedItem = "";
     bool bossCheck = false;
+    bool keycard = false;
+    bool keycard2 = false;
 
 
     // Start is called before the first frame update
@@ -27,6 +29,11 @@ public class UITxt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (usedItem == "Key" || usedItem == "KeyCard" || GameObject.Find("Key") == null)
+        {
+            keycard = true;
+
+        }
         if (Input.GetKeyDown("e") && uiText.text == "" || Input.GetKeyDown("e") && promptNo != 0)
         {
             if (promptCounter == 1)
@@ -69,7 +76,7 @@ public class UITxt : MonoBehaviour
         }
         if (GameObject.FindWithTag("tutorialEnemy") == null && noEText == 0)
         {
-            uiText.text = ("Shit! What was that thing?");
+            uiText.text = ("Shit! What was that thing? -->");
             if (Input.GetKeyDown("e") && uiText.text == ("Shit! What was that thing? -->"))
             {
                 noEText++;
@@ -196,9 +203,10 @@ public class UITxt : MonoBehaviour
 
             }
         }
-        else if(usedItem == "Key")
+        else if(keycard == true && keycard2 == false)
         {
             uiText.text = ("Looks like some sort of key card. Might come in handy.");
+            keycard2 = true;
         }
     }
 

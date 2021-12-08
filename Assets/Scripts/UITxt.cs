@@ -36,7 +36,7 @@ public class UITxt : MonoBehaviour
             }
             else if (promptCounter == 2)
             {
-                uiText.text = ("[use the 'w-a-s-d' keys to move. Walk over glowing objects to pick them up]");
+                uiText.text = ("[use the 'w-a-s-d' keys to move.] \n [Walk over glowing objects to pick up or interact with them]");
                 promptCounter++;
                 promptNo++;
 
@@ -56,7 +56,7 @@ public class UITxt : MonoBehaviour
             }
             else if (promptCounter == 5)
             {
-                uiText.text = ("[Once you pick up a weapon press 'q' to select, and use left click to fire the weapon]");
+                uiText.text = ("[Once you pick up a weapon press 'q' to select,\n and use left click to fire the weapon]");
                 promptCounter++;
                 promptNo = 0;
             }
@@ -72,9 +72,10 @@ public class UITxt : MonoBehaviour
             if (Input.GetKeyDown("e") && uiText.text == ("Shit! What was that thing?"))
             {
                 noEText++;
-                uiText.text = ("Is that - did it EAT Jenkins?!");
+                uiText.text = ("Is that - did it EAT Jenkins?!\nI better head to the squad bay to check in on the other guys");
             }
         }
+        
         else if (usedItem == "PPAADD")
         {
             if (promptNo == 0)

@@ -196,6 +196,10 @@ public class UITxt : MonoBehaviour
 
             }
         }
+        else if(usedItem == "Key")
+        {
+            uiText.text = ("Looks like some sort of key card. Might come in handy.");
+        }
     }
 
     void OnTriggerEnter2D(Collider2D obj)

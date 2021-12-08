@@ -24265,7 +24265,7 @@ GameObject:
   - component: {fileID: 1448580946}
   m_Layer: 3
   m_Name: Key
-  m_TagString: Untagged
+  m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

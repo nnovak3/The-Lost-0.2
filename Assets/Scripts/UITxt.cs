@@ -13,13 +13,8 @@ public class UITxt : MonoBehaviour
     int noEText = 0;
     Collider2D checker;
     string usedItem = "";
-<<<<<<< HEAD
-=======
+
     bool bossCheck = false;
-<<<<<<< HEAD
->>>>>>> parent of 5f2df5c (Fixed some ui text)
-=======
->>>>>>> parent of 5f2df5c (Fixed some ui text)
 
 
     //TODO: Force player to scroll through text
@@ -80,16 +75,11 @@ public class UITxt : MonoBehaviour
         }
         if (GameObject.FindWithTag("tutorialEnemy") == null && noEText == 0)
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             uiText.text = ("Shit! What was that thing?-->");
             if (Input.GetKeyDown("e") && uiText.text == ("Shit! What was that thing?-->"))
-=======
-=======
->>>>>>> parent of 5f2df5c (Fixed some ui text)
+
             uiText.text = ("Shit! What was that thing?");
             if (Input.GetKeyDown("e") && uiText.text == ("Shit! What was that thing? -->"))
->>>>>>> parent of 5f2df5c (Fixed some ui text)
             {
                 noEText++;
                 uiText.text = ("Is that - did it EAT Jenkins?!");
@@ -202,16 +192,11 @@ public class UITxt : MonoBehaviour
                 }
             }
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 5f2df5c (Fixed some ui text)
+
         else if(usedItem == "Key")
         {
             uiText.text = ("Looks like some sort of key card. Might come in handy.");
         }
->>>>>>> parent of 5f2df5c (Fixed some ui text)
     }
 
     void OnTriggerEnter2D(Collider2D obj)
